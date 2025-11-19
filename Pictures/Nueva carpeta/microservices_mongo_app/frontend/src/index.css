@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-100 text-gray-800;
+}
+
+.card {
+  @apply bg-white shadow-xl rounded-2xl p-8 border;
+}
+
+.btn {
+  @apply w-full py-3 rounded-xl text-white font-semibold transition;
+}
